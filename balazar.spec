@@ -1,7 +1,7 @@
 %define name balazar
 %define oname Balazar
 %define version 0.3.4
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	A 3D adventure and roleplaying game
 Name:		%{name}
@@ -44,8 +44,8 @@ install -m 644 -D %{SOURCE12} $RPM_BUILD_ROOT/%{_liconsdir}/%{name}.png
 mkdir $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{oname}.desktop << EOF
 [Desktop Entry]
-Name=%{title}
-Comment=%{longtitle}
+Name=%{oname}
+Comment=%{summary}
 Exec=%{_bindir}/%{name} %U
 Icon=%{name}
 Terminal=false
