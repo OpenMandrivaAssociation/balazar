@@ -15,6 +15,7 @@ Source11:	%{name}-32.png
 Source12:	%{name}-48.png
 URL:		http://home.gna.org/oomadness/en/balazar/
 # or http://balazar.nekeme.net/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	python-devel, SDL-devel
 Requires:	soya, python-imaging, pyogg, pyvorbis, pyopenal
 Requires:	tofu, cerealizer
