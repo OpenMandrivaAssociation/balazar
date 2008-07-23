@@ -1,7 +1,7 @@
 %define name balazar
 %define oname Balazar
 %define version 0.3.4
-%define release %mkrel 2
+%define release %mkrel 4
 
 Summary:	A 3D adventure and roleplaying game
 Name:		%{name}
