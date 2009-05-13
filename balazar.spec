@@ -1,13 +1,13 @@
 %define name balazar
 %define oname Balazar
 %define version 0.3.4
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	A 3D adventure and roleplaying game
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-License:	GPL
+License:	GPLv2
 Group:		Games/Adventure
 Source:		http://download.gna.org/balazar/%oname-%version.tar.bz2
 Source10:	%{name}-16.png
@@ -24,7 +24,7 @@ Requires:	tofu, cerealizer
 BuildArch: noarch
 
 %description
-A 3D adventure and roleplaying game string Balazar the photo-mage.
+A 3D adventure and roleplaying game starring Balazar the photo-mage.
 
 %prep
 
@@ -51,7 +51,7 @@ Icon=%{name}
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=Game;AdventureGame
+Categories=Game;AdventureGame;
 EOF
 
 %clean
