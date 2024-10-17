@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPLv2
 Group:		Games/Adventure
-Url:		http://home.gna.org/oomadness/en/balazar/
+Url:		https://home.gna.org/oomadness/en/balazar/
 # or http://balazar.nekeme.net/
 Source0:	http://download.gna.org/balazar/%{oname}-%{version}.tar.bz2
 Source10:	%{name}-16.png
